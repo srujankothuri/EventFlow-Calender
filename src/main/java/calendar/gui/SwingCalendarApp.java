@@ -104,7 +104,7 @@ public final class SwingCalendarApp {
 
     repaintMonth();
 
-    frame.setTitle("Virtual Calendar");
+    frame.setTitle("EventFlow");
     frame.add(root);
     frame.setPreferredSize(new Dimension(980, 700));
     frame.pack();

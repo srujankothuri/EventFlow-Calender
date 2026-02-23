@@ -1,8 +1,8 @@
 # USEME
 
-## Virtual Calendar — Developer Runbook
+## EventFlow — Developer Runbook
 
-This document is the practical runbook for building, running, validating, and submitting the Virtual Calendar project.
+This document is the practical runbook for building, running, validating, and submitting the EventFlow project.
 
 > **Runtime baseline**: Java 11  
 > **Primary launcher**: `calendar.CalendarRunner`  

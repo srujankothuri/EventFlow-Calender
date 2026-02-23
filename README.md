@@ -1,4 +1,4 @@
-# Virtual Calendar
+# EventFlow
 
 A Java calendar application with both a command-line interface (interactive + script/headless) and a Swing GUI.
 
