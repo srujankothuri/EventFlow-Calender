@@ -1,12 +1,12 @@
-# Virtual Calendar — Bible Document
+# EventFlow — Bible Document
 
 ## 1) 30-Second Pitch (Role-Specific Versions)
 
 ### Backend Engineer Pitch
-I built **Virtual Calendar**, a Java 11 calendar platform that supports multi-calendar timezone isolation, recurring event logic, series-level edits, copying across date ranges, analytics, and dual interfaces (CLI + Swing GUI). The architecture separates command parsing, services, and domain modeling, with exporter abstractions for CSV/ICAL and a CI-backed quality workflow.
+I built **EventFlow**, a Java 11 calendar platform that supports multi-calendar timezone isolation, recurring event logic, series-level edits, copying across date ranges, analytics, and dual interfaces (CLI + Swing GUI). The architecture separates command parsing, services, and domain modeling, with exporter abstractions for CSV/ICAL and a CI-backed quality workflow.
 
 ### Full-Stack / Product Engineer Pitch
-Virtual Calendar is a complete scheduling system with a desktop GUI and scriptable CLI, designed for real-world operations: create/edit recurring events, duplicate schedules between teams, run date-range analytics, and export in interoperable formats. I focused on clean layering and extensibility, so adding APIs or cloud persistence later is straightforward.
+EventFlow is a complete scheduling system with a desktop GUI and scriptable CLI, designed for real-world operations: create/edit recurring events, duplicate schedules between teams, run date-range analytics, and export in interoperable formats. I focused on clean layering and extensibility, so adding APIs or cloud persistence later is straightforward.
 
 ### QA / SDET Pitch
 This project is a test-heavy Java application with broad command and service coverage (commands, event lifecycle, export behavior, GUI headless checks, date utilities). I designed it to support deterministic command-driven testing and report quality through Gradle test pipelines and CI.
@@ -17,7 +17,7 @@ Beyond CRUD, the project computes practical calendar intelligence—event volume
 ---
 
 ## 2) What the Project Does (Plain English)
-Virtual Calendar lets users create multiple named calendars (each in its own timezone), add normal or recurring events, edit one event or many future/series instances, query availability and schedules, copy events between calendars and dates, and export to CSV/ICS.
+EventFlow lets users create multiple named calendars (each in its own timezone), add normal or recurring events, edit one event or many future/series instances, query availability and schedules, copy events between calendars and dates, and export to CSV/ICS.
 
 ---
 
@@ -472,7 +472,7 @@ Built a Java-based multi-calendar scheduling platform (CLI + Swing GUI) supporti
 ---
 
 ## 32) LinkedIn Post Template
-I just shipped **Virtual Calendar**, a Java scheduling app with both CLI automation and GUI workflows.
+I just shipped **EventFlow**, a Java scheduling app with both CLI automation and GUI workflows.
 
 Highlights:
 - Multi-calendar + timezone-aware operations
@@ -503,7 +503,7 @@ Great exercise in architecture layering (command → service → model) and desi
 ## Appendix A — Suggested PDF Export Command
 If `pandoc` is installed:
 ```bash
-pandoc Virtual-Calender-docs.md -o Virtual-Calender-docs.pdf
+pandoc EventFlow-docs.md -o EventFlow-docs.pdf
 ```
 
-In this repository, a plain-text PDF artifact has already been generated as `Virtual-Calender-docs.pdf`.
+In this repository, a plain-text PDF artifact has already been generated as `EventFlow-docs.pdf`.
