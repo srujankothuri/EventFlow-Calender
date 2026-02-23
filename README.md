@@ -217,6 +217,14 @@ The GUI mutates state via `GuiController` and reads data from `CalendarReadOnly`
 
 ---
 
+
+## Portfolio Setup Tip
+
+If you are using this repository as a personal showcase project, you can safely remove any course-specific autograder workflow (such as `.github/workflows/grade.yml`).
+For recruiter-facing presentation, prefer a standard CI workflow that runs tests on push/PR.
+
+---
+
 ## Known Notes
 
 - If headless input ends without `exit`, the app prints an error and exits.
